@@ -6,7 +6,7 @@ const students = [
 {firstname: 'Ava', lastname: 'Davis,'},
 ];
 
-const student = students.map(name => name.firstname);
+const student = students.map(student => student.firstname);
 
 console.log(students);
 console.log(student);
