@@ -9,9 +9,12 @@ function myColorChange() {
     const element = document.getElementById("id01");
     element.style.color = "green";
 }
+
+
 // ad. Zrozumienie koncepcji:
 
-// Słowo kluczowe 'this' odnosi się do wartości lub metody danego obiektu, w którym jest wykorzystywany,
+// Słowo kluczowe 'this' odnosi się do wartości lub metody danego obiektu, 
+// w którym jest wykorzystywany,
 
 
 //   1. 'this' odnosi się do wartości 'name' i 'age' w kontekscię obiektu 'person'
