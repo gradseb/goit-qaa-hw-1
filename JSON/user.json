@@ -1,0 +1,14 @@
+Analiza pliku JSON:
+
+ {
+    "name": "Josh",                     // klucz name, wartość "Josh", typ string
+    "weight": "175",                    // klucz weight, wartość "175", typ string
+    "eyecolor": "brown",                // klucz age, wartość "30", typ string
+    "isHappy": "true",                  // klucz isHappy, wartość "true", typ string
+    "cars": ["Chevy", "Honda"],         // klucz cars, wartość tablica zawierająca dwie właściwości - "Chevy", "Honda"
+        "favoriteBook": {               // klucz favoriteBook, typ obiekt
+        "title": "The Last Kingdom",    // klucz tittle, wartość "The Last Kingdom", typ string
+        "author": "Bernard Cornwell",   // klucz author, wartość "Bernard Cornwell", typ string
+        "rating": 8.38                  // klucz rating, wartość 8.38, typ liczba
+}
+}
